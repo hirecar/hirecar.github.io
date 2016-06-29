@@ -1,0 +1,62 @@
+@charset "utf-8";
+/*特批页面*/
+.wrapper{overflow:hidden;background:url(../images/bg.png) no-repeat center center;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%;}
+.wrapper .logo{width:200px;height:100px;margin:0 auto;margin-top:6%;text-align:center;overflow:hidden;}
+.wrapper .logo img{width:100%;height:100%;vertical-align:middle;}
+.wrapper .login_box{position:absolute;left:50%;top:50%;margin:-100px 0 0 -168px;padding:8px 8px;background:rgba(255,255,255,0.2) !important;-webkit-box-shadow:0px 0px 5px #3b639f;-moz-box-shadow:0px 0px 5px #3b639f;box-shadow:0px 0px 5px #3b639f;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
+.wrapper .login_box form{background:#fff;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
+.wrapper .login_box form h3{width:320px;margin:0 auto;padding:15px 0;text-align:center;color:#2e95d0;font-size:18px;}
+.wrapper .login_box form .user_name{width:250px;margin:0 auto;padding:10px 0;}
+.wrapper .login_box form .user_name input{width:250px;height:32px;line-height:32px;border:0 none;outline:none;text-indent:30px;font-size:14px;color:#666;border:1px solid #e5e5e5;background:url(../images/icon-username.png) no-repeat 5px center;background-size:15px 20px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.wrapper .login_box form .password{width:250px;margin:0 auto;padding:10px 0;padding-bottom:2px;}
+.wrapper .login_box form .password input{width:250px;height:32px;line-height:32px;border:0 none;outline:none;text-indent:30px;font-size:14px;color:#666;border:1px solid #e5e5e5;background:url(../images/icon-pwd.png) no-repeat 5px center;background-size:15px 20px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.wrapper .login_box form .validate{width:250px;margin:0 auto;padding:10px 0;padding-bottom:2px;display:none;}
+.wrapper .login_box form .validate input{display:inline-block;width:80px;height:32px;line-height:32px;vertical-align:middle;border:0 none;outline:none;text-indent:25px;font-size:14px;color:#666;border:1px solid #e5e5e5;background:url(../images/icon-validate.png) no-repeat 5px center;background-size:15px 20px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.wrapper .login_box form .validate span{display:inline-block;vertical-align:middle;height:32px;border:1px solid #e5e5e5;}
+.wrapper .login_box form .validate span img{width:100px;height:32px;vertical-align:middle;cursor:pointer;}
+.wrapper .login_box form .validate label{display:inline-block;vertical-align:middle;height:32px;line-height:32px;cursor:pointer;color:#5e95e0;}
+.wrapper .login_box form .save_data{width:250px;margin:0 auto;}
+.wrapper .login_box form .save_data input{display:inline-block;vertical-align:middle;}
+.wrapper .login_box form .save_data label{color:#666;font-size:12px;cursor:pointer;}
+.wrapper .login_box form .validate label:hover{color:#3b639f;}
+.wrapper .login_box form input:focus{border:1px solid #3b639f;}
+.wrapper .login_box form .login{width:130px;margin:0 auto;padding:20px 0;}
+.wrapper .login_box form .login p{height:35px;line-height:35px;text-align:center;color:#fff;font-size:18px;background:#2e95d0;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;cursor:pointer;}
+.wrapper .login_box form .login p:hover{background:#3b639f;}
+.wrapper .footer{width:100%;height:100%;position:fixed;left:0;top:0;display:none;}
+.wrapper .footer .layer{position:absolute;left:50%;top:50%;margin:-59px 0 0 -180px;padding:50px 0;width:360px;border:1px solid #999;background:#fff;z-index:2;}
+.wrapper .footer .layer .closed{position:absolute;right:5px;top:2px;cursor:pointer;}
+.wrapper .footer .layer .closed img{width:15px;height:15px;vertical-align:middle;}
+.wrapper .footer .layer .closed:hover{}
+.wrapper .footer .layer .prompt{width:300px;margin:0 auto;font-size:12px;}
+.wrapper .copyright{position:fixed;left:0;bottom:50px;width:100%;text-align:center;}
+.wrapper .copyright p{color:#333;font-size:14px;}
+.wrapper .copyright p span{color:#f9613b;font-size:14px;cursor:pointer;}
+.wrapper .copyright p span:hover{text-decoration:underline;}
+
+@media screen and (min-device-width:1450px) and (max-device-width:1760px){
+	.wrapper .login_box{margin: -110px 0 0 -178px !important;}
+	.wrapper .login_box form{padding:10px 10px !important;}
+}
+@media screen and (min-device-width:1761px) and (max-device-width:1920px){
+	.wrapper .login_box{margin: -115px 0 0 -183px !important;}
+	.wrapper .login_box form{padding:15px 15px !important;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
